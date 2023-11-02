@@ -22,7 +22,8 @@
         <hr>
     </div>
 
-	<a  id="bookmarkBox"Form completer
+    <div id="bookmarkTool">
+        <a  id="bookmarkBox"Form completer
 		href="javascript: (function() {
             var el = document.getElementsByTagName('input');
             for (var i =0; i < el.length; i++){
@@ -34,14 +35,23 @@
                 dd[i].selectedIndex = 1;
             }
         })();" > Form Completer
-    </a>
+        </a>
+    </div>
+
 </body>
 </html>
 
 <style type="text/css">
     #bookmarkBox {
-        border: 2px solid black;
+        border: 5px solid black;
         text-decoration: none;
+    }
+
+    #bookmarkTool {
+        font-size: larger;
+        margin: auto;
+        padding-top: 5%;
+        width: 50%;
     }
 </style>
 
